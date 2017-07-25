@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QASuite" duration-ms="38601" started-at="2017-07-25T18:05:18Z" finished-at="2017-07-25T18:05:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38601" started-at="2017-07-25T18:05:18Z" finished-at="2017-07-25T18:05:57Z">
+      <class name="testcases.TC_01">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC_01@1c68925]" name="setup" is-config="true" duration-ms="8943" started-at="2017-07-25T23:35:18Z" finished-at="2017-07-25T23:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QA_TC_01()[pri:0, instance:testcases.TC_01@1c68925]" name="QA_TC_01" duration-ms="10265" started-at="2017-07-25T23:35:27Z" finished-at="2017-07-25T23:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QA_TC_01 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC_01@1c68925]" name="closeBrowser" is-config="true" duration-ms="1104" started-at="2017-07-25T23:35:37Z" finished-at="2017-07-25T23:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC_01 -->
+      <class name="testcases.TC_02">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC_02@f82f98]" name="setup" is-config="true" duration-ms="8024" started-at="2017-07-25T23:35:38Z" finished-at="2017-07-25T23:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="QA_TC_01()[pri:0, instance:testcases.TC_02@f82f98]" name="QA_TC_01" duration-ms="9304" started-at="2017-07-25T23:35:46Z" finished-at="2017-07-25T23:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QA_TC_01 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.TC_02@f82f98]" name="closeBrowser" is-config="true" duration-ms="945" started-at="2017-07-25T23:35:56Z" finished-at="2017-07-25T23:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TC_02 -->
+    </test> <!-- Test -->
+  </suite> <!-- QASuite -->
+</testng-results>
